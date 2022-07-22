@@ -371,7 +371,6 @@ a {
     font-size: 1.3em;
     font-weight: lighter;
     margin: 0;
-
  }
 
  .events_left {
@@ -391,6 +390,7 @@ a {
  .reservation {
     position: relative;
     margin-top: 80px;
+    margin-bottom: 180px;
  }
 
  .reservation h6{
@@ -419,6 +419,7 @@ a {
 
  .reservation_form {
     padding: 0 326px;
+    margin-top: 80px;
  }
 
  .reservation_form .res_input {
@@ -442,18 +443,102 @@ a {
 
  .reservation_bg-1 {
     position: absolute;
-    top: -120px;
-    left: -150px;
+    top: -130px;
+    left: -80px;
  }
 
  .reservation_bg-2 {
     position: absolute;
-    top: 50px;
+    top: 100px;
     left: 100px;
  }
 
  .reservation_bg-3 {
     position: absolute;
-    top: 80px;
+    top: 140px;
     right: -280px;
+ }
+
+ /* FOOTER */
+
+ .footer {
+    background: url('/images/bg-bottom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+ }
+
+ .footer_left {
+    flex: 2;
+    padding: 50px;
+    position: relative;
+ }
+
+ .footer_right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+ }
+
+ .footer_left img {
+    filter: brightness(100);
+ }
+
+ .footer_left p{
+    font-family: var(--font-mont);
+    color: var(--color-white);
+    font-size: 0.9em;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin: 20px 0 0 0 ;
+    width: 600px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: justify;
+ }
+
+ .footer_container {
+    display: flex;
+    height: inherit;
+ }
+
+ .footer_right h5{
+    color:var(--color-white);
+    font-family: var(--font-bebas);
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin: 5px;
+ }
+
+ #location, #email {
+    margin-right: 30px;
+ }
+
+ .footer_right-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: var(--color-white);
+ }
+
+ .footer_right-icons > *{
+   transform: scale(1.5);
+ }
+
+ #icons {
+    margin: 0 8px;
+ }
+
+ #copyright {
+    font-family: var(--font-bebas);
+    opacity: 1;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
  }
