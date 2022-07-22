@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    --color-primary: #3d2514;
+    --color-secondary: #ffc045;
+    --color-accent: #bf2222;
+    --text-shadow: #fee8bc;
+    --font-alfa: 'Alfa Slab One', cursive;
+    --font-bebas: 'Bebas Neue', cursive;
+    --font-mont: 'Montserrat', sans-serif;
+} 
+
+h3 {
+    font-family: var(--font-alfa);
+    color: var(--color-primary);
+    letter-spacing: 1px;
+    font-size: 2.5em;
+}
+
+.ft-md {
+    font-size: 3em;
+}
+
+.ft-lg {
+    font-size: 3.5em;
+}
+
+.ft-xl {
+    font-size: 7.1em;
+}
+
+.t-shadow {
+    text-shadow: 5px 5px var(--text-shadow);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+#menu {
+    display: flex;
+}
+
+#menu li:last-child > a {
+    margin-right: 0;
+}
+
+#menu li{
+  letter-spacing: 4px;
+}
+
+#menu a{
+    color: var(--color-primary);
+    font-family: var(--font-bebas);
+    font-size: 1.3em;
+    margin: 0 1.4em;
+    white-space: nowrap;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_content {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    /* margin-right: 28px; */
+}
+
+.nav_content p{
+   font-family: var(--font-mont);
+   color: var(--color-primary);
+   font-weight: 600;
+}
+
+.nav_content img{
+   margin-right: 8px;
+ }
