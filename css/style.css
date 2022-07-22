@@ -4,6 +4,7 @@
     --color-primary: #3d2514;
     --color-secondary: #ffc045;
     --color-accent: #bf2222;
+    --color-white: #fff;
     --text-shadow: #fee8bc;
     --font-alfa: 'Alfa Slab One', cursive;
     --font-bebas: 'Bebas Neue', cursive;
@@ -148,4 +149,46 @@ a {
  .hero_right img {
     width: 100%;
  }
+
+ .hero_right {
+    position: relative;
+ }
  
+ .hero_price-container {
+    align-items: center;
+    background: var(--color-accent);
+    border-radius: 100%;
+    bottom: 0;
+    display: flex;
+    height: 174px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    width: 174px;
+ }
+
+ .hero_price-container p{
+    border: 2px dashed var(--color-white);
+    border-radius: 100%;
+    padding: 24px 28px;
+ }
+
+ .hero_price-container .price{
+    color: var(--color-white);
+    font-size: 4.4em;
+    font-family: var(--font-bebas);
+ }
+
+ .hero_price-container .cents{
+    color: var(--color-white);
+    font-size: 1.9em;
+    font-family: var(--font-bebas);
+ }
+
+ .hero_price-container .text{
+    color: var(--color-white);
+    font-size: 2.1em;
+    font-family: var(--font-bebas);
+    letter-spacing: 10px;
+    line-height: 15px;
+ }
