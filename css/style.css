@@ -760,4 +760,53 @@ a {
 .events_right img {
   margin-top: 30px;
 }
+.hero_price-container {
+   bottom: 30px;
+   left: 60px;
+}
+.features_2-card-container {
+   display: block;
+}
+.features_2-card img {
+   max-width: 90%;
+   width: 100%;
+}
+.features_2-header p{
+   font-size: 1.3em;
+}
+.features_2-card p {
+   font-size: 1.3em;
+   width: 650px;
+   margin: 10px auto;
+   text-align: initial;
+}
+.features_2-card {
+   margin: 100px auto;
+}
+.btn-accent {
+   font-size: 1.2em;
+   padding: 18px 40px;
+}
+.events_left p {
+   font-size: 1.4em;
+}
+.events-container {
+   padding:30px;
+}
+.events_left {
+   padding: 0;
+}
+.reservation_bg-1 {
+   top: -130px;
+   left: -150px;
+}
+.footer_right-icons {
+   position: absolute;
+   bottom: -180px;
+   right: 20px;
+   color: var(--color-white);
+}
+.hero_left h4 {
+   font-size: 1.4em;
+}
  }
