@@ -810,3 +810,107 @@ a {
    font-size: 1.4em;
 }
  }
+
+
+ /* MEDIA MOBILE LARGE */
+ @media (max-width: 768px) {
+   .hero_left h1 {
+      font-size: 4em;
+  }
+  .hero_left {
+   margin-left: 0;
+ }
+.hero_left h4 {
+   font-size: 1.1em;
+ }
+.hero_left h2 {
+   font-size: 2.8em;
+ }
+ .hero_right img {
+   margin-left: 0;
+   transform: scale(1.1);
+}
+.header {
+   height: 90vh;
+}
+.features_1_cards-content h5 {
+   font-size: 1.2em;
+}
+.hero_price-container {
+   bottom: -30px;
+   left: -20px;
+}
+.hero_price-container {
+ transform: scale(0.8);
+}
+.btn-primary {
+   padding: 10px 24px;
+   font-size: 1.2em;
+}
+.features_2-header p {
+   font-size: 1.2em;
+ }
+ .features_2-card p {
+   font-size: 1.2em;
+   width: 310px;
+   text-align: center;
+}
+.btn-accent {
+   font-size: 1.1em;
+   padding: 14px 30px;
+}
+.events_left p {
+   font-size: 1.1em;
+}
+.reservation_bg-1, .reservation_bg-2, .reservation_bg-3  {
+ display: none;
+}
+.reservation_form {
+   padding: 0;
+}
+.reservation_form a {
+   width: 225px;
+}
+.reservation h5 {
+   font-size: 2.1em;
+}
+.reservation h6 {
+   font-size: 1.5em;
+}
+.footer {
+   height: 84vh;
+}
+#copyright {
+   font-family: var(--font-bebas);
+   opacity: 1;
+   font-weight: lighter;
+   position: absolute;
+   bottom: 10px;
+   left: 20px;
+}
+.footer_right-icons {
+   position: absolute;
+   bottom: -80px;
+   left: -30px;
+   color: var(--color-white);
+}
+#menu {
+   width: 250px;
+   font-size: 0.9em;
+   right: -300px;
+   transition: 0.3s;
+}
+#menu.active {
+   right: 0;
+}
+#xmark {
+   top: 20px;
+   right: 20px;
+}
+.features_2-header h3 {
+   font-size: 2em;
+}
+.hero {
+   margin-left: 20px;
+}
+}
