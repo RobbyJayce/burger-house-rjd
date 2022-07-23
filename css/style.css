@@ -623,7 +623,7 @@ a {
    width: 400px;
 }
 .footer {
-   height: 60vh;
+   height: 28vh;
 }
 .footer_right h5 {
    white-space: nowrap;
@@ -752,7 +752,7 @@ a {
    margin-bottom: 100px;
 }
 .footer {
-   height: 55vh;
+   height: 45vh;
 }
 .events-container {
    display: block;
@@ -802,7 +802,7 @@ a {
 }
 .footer_right-icons {
    position: absolute;
-   bottom: -180px;
+   bottom: -80px;
    right: 20px;
    color: var(--color-white);
 }
