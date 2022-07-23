@@ -790,6 +790,7 @@ a {
 .btn-accent {
    font-size: 1.2em;
    padding: 18px 40px;
+   width: 210px;
 }
 .events_left p {
    font-size: 1.4em;
@@ -817,7 +818,6 @@ a {
    display: initial;
  }
  }
-
 
  /* MEDIA MOBILE LARGE */
  @media (max-width: 425px) {
