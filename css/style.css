@@ -664,7 +664,7 @@ a {
    padding: 80px 10px;
    margin: 0;
    width: 300px;
-   height: 100vh;
+   height: 150vh;
    position: fixed;
    top: 0;
    right: 0;
@@ -674,6 +674,7 @@ a {
 #menu.active {
    right: 300px;
 }
+
 #menu li{
   margin: 20px 0;
 }
@@ -721,7 +722,7 @@ a {
    padding: 30px;
 }
 .header {
-   height: 130vh;
+   height: 120vh;
 }
 .reservation_form .res_input {
   margin: 5px;
@@ -838,7 +839,7 @@ a {
    transform: scale(1.1);
 }
 .header {
-   height: 80vh;
+   height: 82vh;
 }
 .features_1_cards-content h5 {
    font-size: 1.2em;
@@ -885,7 +886,7 @@ a {
    font-size: 1.5em;
 }
 .footer {
-   height: 75vh;
+   height: 78vh;
 }
 #copyright {
    font-family: var(--font-bebas);
