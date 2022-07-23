@@ -922,3 +922,157 @@ a {
    margin-left: 20px;
 }
 }
+
+ /* MEDIA MOBILE MEDIUM */
+
+@media (max-width: 375px) {
+   img {
+      width: 180px;
+  }
+  #bars {
+   font-size: 25px;
+  }
+  .hero_left h4 {
+   font-size: 0.9em;
+   padding: 5px 10px;
+}
+   .hero_left h1 {
+   font-size: 3.5em;
+}
+   .hero_left h2 {
+   font-size: 2.5em;
+}
+   .hero {
+   margin-left: 30px;
+   margin-top: 10px;
+}
+   .hero_right img {
+   margin-top: 30px;
+   transform: scale(1.2);
+}
+   .header {
+   height: 72vh;
+}
+   .container {
+   padding: 10px;
+}
+   .nav {
+   margin: 20px;
+}
+   .hero_price-container {
+   bottom: -30px;
+   left: -40px;
+}
+   .features_1_cards {
+   margin-bottom: 5px;
+}
+   .btn-primary {
+   padding: 8px 14px;
+   font-size: 1.2em;
+}
+   .features_2-header h3 {
+   font-size: 1.7em;
+}
+   .btn-accent {
+   font-size: 0.8em;
+   padding: 14px 0;
+}
+   .reservation h5 {
+   font-size: 1.8em;
+}
+   .reservation h6 {
+   font-size: 1.3em;
+}
+   .reservation_form a {
+   width: 285px;
+   height: 20px;
+}
+   .footer {
+   height: 73vh;
+}
+#menu {
+   font-size: 0.7em;
+}
+}
+
+/* MEDIA MOBILE SMALL */
+
+@media (max-width: 320px) {
+   .nav {
+      margin: 10px 5px;
+  }
+  .hero {
+      margin-left: 0;
+  }
+  .hero_left {
+   margin-top: 30px;
+}
+  .hero_left h1 {
+   font-size: 3.1em;
+}
+   .hero_left h2 {
+   font-size: 2.2em;
+}
+.hero_left h4 {
+   font-size: 0.8em;
+}
+  .hero_right img {
+   transform: scale(1.2);
+   margin-left: 15px;
+}
+   .hero_price-container {
+   transform: scale(0.6);
+   left: -30px;
+}
+   #xmark {
+   top: 30px;
+   right: 50px;
+}
+   .features_1_cards-content {
+   padding: 10px 15px;
+}
+   .features_1_cards-content h6 {
+   font-size: 1em;
+}
+   .features_1_cards-content h5 {
+   font-size: 1.2em;
+}
+ .features_2-header h3 {
+   font-size: 1.4em;
+}
+ .btn-accent {
+   font-size: 0.8em;
+   padding: 12px 0;
+}
+ .events_left p {
+   font-size: 0.9em;
+}
+ .events_left h5 {
+   font-size: 2.1em;
+}
+ .reservation h5 {
+   font-size: 1.5em;
+}
+ .reservation h6 {
+   font-size: 1.1em;
+}
+.reservation_form {
+   margin-top: 40px;
+}
+.reservation {
+   margin-bottom: 40px;
+}
+.header {
+   height: 62vh;
+}
+.footer {
+   height: 83vh;
+}
+.footer_right {
+   margin-left: 40px;
+}
+.footer_right h5 {
+
+   font-size: 1em;
+}
+}
